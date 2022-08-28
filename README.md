@@ -47,7 +47,7 @@ super admin Dashboard
 
 Application Routes
 
-Here is some of the endpoints we are going to be implementing for our endpoint
+Here is some of the endpoints we are going to be implementing for our application
 
 | URL     | METHOD      | FUNCTION     |
 | ------------- | ------------- | -------- |
@@ -73,3 +73,8 @@ more endpoints to be added....
  CONCLUSION
 
  In this project, a transcript management system was developed that facilitates the various activities taking places at school exam and records mainly for easily access,reduce stress of applying for transcript and also to secure some data. It is flexible as changes can easily be accommodated and take effect immediately
+
+
+
+ To run the application on your local computer 
+git clone
