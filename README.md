@@ -34,8 +34,9 @@ This project aims to presenting a simple and fast method of preparing student tr
 Here is our databse schema
 
 
-![Alt text](schema.png "Title")
- 
+![Alt text](schema.png "dbms schema")
+
+[Full link to dbms schema!](https://www.figma.com/file/SYcfFLgk2JoO3xOmBzsRqK/Canwe-database-uml-(Community)?node-id=0%3A1)
 
 1.4 SYSTEM DESIGN AND SYSTEM IMPLEMENTATION
 
@@ -50,14 +51,17 @@ Here is some of the endpoints we are going to be implementing for our endpoint
  /dashboard         | GET         | gets staff into the dasbaord  |
 | /transcript           | POST         | to generate a new transcript  |
 | /transcript/student/{student_id}          | GET        | to fetch all transcript for a particular student  |
-| /transcript/student/{student_id}/{transcript_id}       | GET        | To fetch a certain transcript |
- /transcript/send         | POST         | To send transcript to a Student/Staff email |
+| /transcript/student/{student_id}/{transcript_id}       | GET        | To fetch a certain transcript
+| /transcript/send         | POST         | To send transcript to a Student/Staff email |
+| /course         | GET        | get all courses|
+| /faculty         | GET        | get all faculties|
+| /department         | GET        | get all departments|
+| /professor         | GET        | get all professors|
+| /students         | GET        | get all students|
 
- /course         | POST         | add a course |
 
 
 more endpoints to be added....
-
 
 
 
